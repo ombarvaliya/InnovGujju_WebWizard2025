@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![React](httpshttps://img.shields.io/badge/React-18.2.0-blue?style=for-the-badge&logo=react)
+![React](https://img.shields.io/badge/React-18.2.0-blue?style=for-the-badge&logo=React)
 ![TypeScript](https://img.shields.io/badge/TypeScript-4.9.5-blue?style=for-the-badge&logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.3.1-38B2AC?style=for-the-badge&logo=tailwind-css)
 ![Node.js](https://img.shields.io/badge/Node.js-Express-green?style=for-the-badge&logo=node.js)
@@ -11,6 +11,44 @@
 **A modern, full-stack e-commerce platform built with React, TypeScript, and Node.js featuring a premium UI, smooth animations, and comprehensive admin functionality.**
 
 </div>
+
+---
+
+
+## 👥 Collaborators
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/ombarvaliya">
+        <img src="https://github.com/ombarvaliya.png" width="100px;" alt="Om Barvaliya"/>
+        <br />
+        <sub><b>Om Barvaliya</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/ashish2656">
+        <img src="https://github.com/ashish2656.png" width="100px;" alt="Ashish Dodiya"/>
+        <br />
+        <sub><b>Ashish Dodiya</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/PAVAN-DEVMURARI">
+        <img src="https://github.com/PAVAN-DEVMURARI.png" width="100px;" alt="Pavan Devmurari"/>
+        <br />
+        <sub><b>Pavan Devmurari</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/purvik152">
+        <img src="https://github.com/purvik152.png" width="100px;" alt="Purvik Anghan"/>
+        <br />
+        <sub><b>Purvik Anghan</b></sub>
+      </a>
+    </td>
+  </tr>
+</table> 
 
 ---
 
@@ -104,16 +142,16 @@ innovgujju_webwizard2025/
 ## 👤 User Journey
 
 ### 🏠 **Landing Experience**
-🏠 Homepage → 🛍️ Browse Products → 🔍 Search/Filter → 📱 Product Details
+- 🏠 Homepage → 🛍️ Browse Products → 🔍 Search/Filter → 📱 Product Details
 
 ### 🔐 **Authentication Flow**
-👤 Login/Register → ✅ View Dashboard & Manage Profile
+- 👤 Login/Register → ✅ View Dashboard & Manage Profile
 
 ### 🛒 **Shopping Experience**
-🛍️ Browse → 🛒 Add to Cart → 💳 Checkout → 📧 Order Confirmation
+- 🛍️ Browse → 🛒 Add to Cart → 💳 Checkout → 📧 Order Confirmation
 
 ### 👨‍💼 **Admin Workflow**
-🔐 Admin Login → 📊 Dashboard → 📦 Manage Products/Users → 📋 View Orders
+- 🔐 Admin Login → 📊 Dashboard → 📦 Manage Products/Users → 📋 View Orders
 
 ---
 
@@ -289,36 +327,50 @@ A **modern e-commerce platform** built with **React**, **TypeScript**, **Redux**
 ## 📸 Screenshots
 
 ### 🏠 Homepage
-![Homepage](https://via.placeholder.com/800x400.png?text=Homepage)  
+![Homepage](./images/HomePage.png)  
 Modern homepage featuring a dark theme, violet accents, and a prominent call-to-action.
 
 ### 🛍️ Products Page
-![Products Page](https://via.placeholder.com/800x400.png?text=Products+Page)  
+![Products Page](./images/ProductPage.png)  
 Comprehensive products page with advanced filtering, search functionality, and a responsive grid layout.
 
 ### 📱 Product Detail
-![Product Detail](https://via.placeholder.com/800x400.png?text=Product+Detail)  
+![Product Detail](./images/ProductDetails.png)  
 Detailed product view with high-resolution images, specifications, and an "Add to Cart" button.
 
 ### 🛒 Shopping Cart
-![Shopping Cart](https://via.placeholder.com/800x400.png?text=Shopping+Cart)  
+![Shopping Cart](./images/ShoppingCart.png)  
 Interactive shopping cart with real-time updates, quantity adjustments, and a clear checkout button.
 
 ### 💳 Checkout Process
-![Checkout](https://via.placeholder.com/800x400.png?text=Checkout)  
+![Checkout](./images/CheckOutPage.png)  
 Streamlined multi-step checkout process:  
 - Shipping address step  
 - Payment method selection (credit card, debit card, UPI, etc.)  
 - Final order review before placing the order
+  
+![Checkout - Payment](./images/CheckOutPage_2.png)
 
 ### ✅ Order Confirmation
-![Order Confirmation](https://via.placeholder.com/800x400.png?text=Order+Confirmation)  
+![Order Confirmation](./images/OrderConformation.png)  
 Order confirmation page displaying a success message and order details.
 
 ### 👤 User Profile & Orders
-![User Profile](https://via.placeholder.com/800x400.png?text=User+Profile)  
+![User Profile](./images/UserProfileAndOrders.png)  
 User profile page with personal information, sidebar for managing orders, addresses, and more.  
 Order history page displaying past orders with details and status.
+
+### 👨‍💼 Admin Dashboard
+![Admin dashboard displaying an overview of total users, products, orders, and recent user activity.](./images/AdminDashboard.png)
+*Admin dashboard with an overview of total users, products, orders, and recent activity.*
+
+### 📊 Admin Analytics
+![Admin analytics page showing detailed reports on revenue, orders, average order value, and top-selling products.](./images/AdminAnalytics.png)
+*Detailed analytics with reports on revenue, orders, AOV, and top-selling products.*
+
+### 👥 Admin User Management
+![Admin user management interface for viewing, searching, and managing all user accounts.](./images/AdminUserManagement.png)
+*User management interface for viewing, searching, and managing all user accounts.*
 
 ---
 
