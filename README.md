@@ -246,8 +246,8 @@ innovgujju_webwizard2025/
 <summary><strong>1. Clone the Repository</strong></summary>
 
 
-git clone [https://github.com/your-username/ecommerce-store.git](https://github.com/ombarvaliya/InnovGujju_WebWizard2025.git)
-cd ecommerce-store
+git clone [https://github.com/ombarvaliya/InnovGujju_WebWizard2025.git](https://github.com/ombarvaliya/InnovGujju_WebWizard2025.git)
+cd InnovGujju_WebWizard2025
 </details>
 
 <details>
