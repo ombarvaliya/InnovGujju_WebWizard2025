@@ -1,94 +1,332 @@
-# Getting Started with Create React App
+# 🛒 E-Store - Modern E-Commerce Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
 
-## Available Scripts
+![React](httpshttps://img.shields.io/badge/React-18.2.0-blue?style=for-the-badge&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-4.9.5-blue?style=for-the-badge&logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.3.1-38B2AC?style=for-the-badge&logo=tailwind-css)
+![Node.js](https://img.shields.io/badge/Node.js-Express-green?style=for-the-badge&logo=node.js)
+![MongoDB](https://img.shields.io/badge/MongoDB-Database-green?style=for-the-badge&logo=mongodb)
 
-In the project directory, you can run:
+**A modern, full-stack e-commerce platform built with React, TypeScript, and Node.js featuring a premium UI, smooth animations, and comprehensive admin functionality.**
 
-### `npm start`
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🎯 Project Overview
 
-### `npm test`
+**E-Store** is a modern, full-stack e-commerce platform that provides a seamless shopping experience with a premium UI/UX design. Built with cutting-edge technologies, it features a sleek dark-themed design, smooth Framer Motion animations, and comprehensive admin functionality.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### ✨ Key Features
 
-### `npm run build`
+- 🎨 **Premium Dark-Themed UI** with violet and purple accents.
+- 🎭 **Smooth Animations** powered by Framer Motion.
+- 🛒 **Complete Shopping Cart** with real-time updates using React Context.
+- 👤 **User Authentication** with JWT tokens and role-based access.
+- 🔍 **Advanced Product Search** and filtering by category, price, and sale status.
+- 📱 **Fully Responsive** design for all devices.
+- 👨‍💼 **Admin Dashboard** for product, order, and user management.
+- 📊 **Order Tracking** and history for users.
+- ❤️ **Wishlist Functionality** for saving favorite items.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ⚡ Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🎨 Frontend
+- **React 18.2.0**: A modern UI library for building user interfaces.
+- **TypeScript 4.9.5**: For type-safe development.
+- **Tailwind CSS 3.3.1**: A utility-first CSS framework for rapid UI development.
+- **Framer Motion 10.16.4**: An animation library for smooth and beautiful animations.
+- **React Router DOM 6.15.0**: For client-side routing.
+- **Redux Toolkit 1.9.5**: For state management, particularly for theme state.
+- **Axios 1.5.0**: An HTTP client for making requests to the backend.
 
-### `npm run eject`
+### 🚀 Backend
+- **Node.js**: A JavaScript runtime environment for the server-side.
+- **Express.js**: A web framework for Node.js.
+- **MongoDB**: A NoSQL database for storing user, product, and order data.
+- **Mongoose**: An object modeling tool for MongoDB.
+- **JWT (JSON Web Tokens)**: For secure user authentication.
+- **bcryptjs**: For password hashing and security.
+- **CORS**: For enabling cross-origin resource sharing.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 🛠️ Development Tools
+- **Nodemon**: For automatically restarting the server during development.
+- **PostCSS**: A tool for transforming CSS with JavaScript.
+- **Autoprefixer**: A PostCSS plugin to add vendor prefixes to CSS rules.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🏗️ Project Structure
 
 
+# 🛒 InnovGujju WebWizard 2025
+
+A **modern e-commerce platform** built with **React**, **TypeScript**, **Redux**, and **Node.js/Express**.  
+This project features a fully responsive frontend, an admin dashboard, user authentication, shopping cart, and API-driven backend.
+
+---
+
+## 📂 Project Structure
+
+```plaintext
+innovgujju_webwizard2025/
+├── public/             # Static assets (images, favicon, etc.)
+├── src/                # Frontend source code
+│   ├── components/     # Reusable UI components
+│   │   ├── admin/      # Admin-specific components (AdminLayout, AdminSidebar)
+│   │   ├── common/     # Shared components (PasswordInput, Button, etc.)
+│   │   ├── icons/      # Icon components
+│   │   ├── layout/     # Layout components (Header, Footer, Navbar)
+│   │   └── product/    # Product-related components (Card, Detail)
+│   ├── context/        # React Context providers
+│   │   ├── AuthContext.tsx  # Authentication state
+│   │   └── CartContext.tsx  # Shopping cart state
+│   ├── pages/          # Page components
+│   │   ├── admin/      # Admin dashboard pages
+│   │   ├── HomePage.tsx     # Landing page
+│   │   ├── ProductsPage.tsx # Product listing page
+│   │   └── ...other user-facing pages
+│   ├── store/          # Redux store
+│   │   ├── slices/     # Redux slices (cartSlice, themeSlice)
+│   │   └── store.ts    # Store configuration
+│   └── types/          # TypeScript type definitions
+├── server/             # Backend source code
+│   ├── models/         # Database models (User, Order, Product)
+│   ├── routes/         # API routes (admin, orders, products)
+│   ├── middleware/     # Express middleware (auth)
+│   └── server.js       # Express server entry point
+└── package.json        # Project dependencies and scripts
+```
+
+## 👤 User Journey
+
+### 🏠 **Landing Experience**
+🏠 Homepage → 🛍️ Browse Products → 🔍 Search/Filter → 📱 Product Details
+
+### 🔐 **Authentication Flow**
+👤 Login/Register → ✅ View Dashboard & Manage Profile
+
+### 🛒 **Shopping Experience**
+🛍️ Browse → 🛒 Add to Cart → 💳 Checkout → 📧 Order Confirmation
+
+### 👨‍💼 **Admin Workflow**
+🔐 Admin Login → 📊 Dashboard → 📦 Manage Products/Users → 📋 View Orders
+
+---
+
+## 📱 Pages & Components
+
+### 🏠 **Core Pages**
+<details>
+<summary><strong>🏠 Homepage</strong></summary>
+
+- **Hero Section**: A large, welcoming hero section with a call-to-action to "Shop Now".
+- **Shop by Category**: A grid of categories to allow users to easily navigate to the products they are interested in.
+- **Featured Products**: A section showcasing handpicked featured products.
+
+</details>
+
+<details>
+<summary><strong>🛍️ Products Page</strong></summary>
+
+- **Advanced Filtering**: Filter products by category and sale status.
+- **Search Functionality**: A search bar to find products by name, description, or category.
+- **Sorting Options**: Sort products by price (low to high, high to low) and newest arrivals.
+- **Product Grid**: A responsive grid displaying all the products.
+
+</details>
+
+<details>
+<summary><strong>🛒 Shopping Cart</strong></summary>
+
+- **Real-time Cart Updates**: Add, remove, and update product quantities with real-time total price calculation.
+- **Clear Cart**: Option to clear the entire cart.
+- **Proceed to Checkout**: A clear call-to-action to proceed to the checkout page.
+
+</details>
+
+<details>
+<summary><strong>💳 Checkout Process</strong></summary>
+
+- **Multi-step Checkout**: A guided three-step process for Shipping, Payment, and Review.
+- **Address Management**: Users can select from their saved addresses.
+- **Multiple Payment Methods**: Supports Credit Card, Debit Card, UPI, Net Banking, and Cash on Delivery.
+- **Order Summary**: A persistent summary of the order total.
+
+</details>
+
+---
+
+## 🔐 Authentication System
+
+### 🛡️ **Security Features**
+
+- **JWT Token Authentication**: Secure user authentication using JSON Web Tokens. The token is stored in local storage and sent with each request.
+- **Password Hashing**: Passwords are securely hashed using `bcryptjs` before being stored in the database.
+- **Role-Based Access Control**: The system differentiates between regular users and administrators. Admin-only routes and API endpoints are protected.
+- **Protected Routes**: Both frontend and backend routes are protected to ensure that only authenticated (and authorized) users can access certain resources.
+
+### 👤 **User Roles**
+
+<details>
+<summary><strong>👤 Regular User</strong></summary>
+
+- Browse and search for products.
+- Add items to the cart and wishlist.
+- Complete the checkout process.
+- View order history and manage their profile.
+
+</details>
+
+<details>
+<summary><strong>👨‍💼 Admin User</strong></summary>
+
+- Access a separate admin dashboard.
+- Manage products (CRUD operations).
+- View and manage all user accounts.
+- View and process all customer orders.
+- View analytics and reports.
+
+</details>
+
+---
+
+## 🚀 Setup & Installation
+
+### 📋 **Prerequisites**
+
+- **Node.js** (v16.0.0 or higher)
+- **npm** or **yarn**
+- **MongoDB** (local or a cloud instance like MongoDB Atlas)
+
+### 🛠️ **Installation Steps**
+
+<details>
+<summary><strong>1. Clone the Repository</strong></summary>
 
 
-The E-Store project includes a comprehensive Admin Panel designed to help store administrators efficiently manage all aspects of the e-commerce platform. Below are the key features and functionalities provided by the admin panel:
-1. Authentication & Authorization
-Admin Login: Secure login system for admin users.
-Role-Based Access Control: Only users with the admin role can access the admin panel and perform administrative actions.
+git clone [https://github.com/your-username/ecommerce-store.git](https://github.com/your-username/ecommerce-store.git)
+cd ecommerce-store
+</details>
 
-2. Dashboard Overview
-Sales Summary: View total sales, revenue, and order count at a glance.
-Recent Orders: Quickly access the latest orders and their statuses.
-Inventory Alerts: Get notified about low-stock or out-of-stock products.
-User Statistics: Monitor total users, new registrations, and active users.
+<details>
+<summary><strong>2. Install Dependencies</strong></summary>
 
-3. Product Management
-Add Products: Create new products with detailed information, including images and stock levels.
-Edit Products: Update existing product details.
-Delete Products: Remove products from the store.
-Product Listing: Search, filter, and view all products in the catalog.
+Bash
 
-4. Category Management
-Manage Categories: Add, edit, or delete product categories to keep the catalog organized.
+# Install frontend dependencies
+npm install
 
-5. Order Management
-Order Listing: View all customer orders with advanced filtering options.
-Order Details: Access comprehensive information for each order, including items, customer details, shipping address, and payment status.
-Update Order Status: Change the status of orders (e.g., pending, shipped, delivered, cancelled).
-Archive/Delete Orders: Remove or archive orders as needed.
+# Install backend dependencies
+cd server
+npm install
+cd ..
+</details>
 
-6. User Management
-User Listing: View all registered users.
-Role Management: Promote or demote users (e.g., assign admin privileges).
-Deactivate/Delete Users: Temporarily or permanently remove users from the platform.
+<details>
+<summary><strong>3. Environment Configuration</strong></summary>
 
-7. Analytics & Reports
-Sales Reports: Generate and export sales reports for different time periods.
-Product Performance: Analyze best-selling and least-selling products.
-User Activity: Track user engagement and order frequency.
+Create a .env file in the root directory and in the server directory with the following content:
 
-8. Settings & Configuration
-Store Information: Update store name, contact details, address, and branding.
-Payment & Shipping Settings: Configure payment gateways and shipping methods.
-Notification Settings: Manage email and SMS notifications for orders and user activities.
+Root .env file:
 
-9. Security & Audit
-Activity Logs: Monitor and audit admin actions for security and compliance.
-Password Management: Securely change admin passwords.
+Code snippet
+
+REACT_APP_API_URL=http://localhost:5000/api
+server/.env file:
+
+Code snippet
+
+MONGODB_URI=mongodb://localhost:27017/ecommerce-store
+JWT_SECRET=your-super-secret-jwt-key
+PORT=5000
+</details>
+
+<details>
+<summary><strong>4. Run the Application</strong></summary>
+
+Bash
+
+# Start the backend server (from the root directory)
+npm run server
+
+# In a new terminal, start the frontend (from the root directory)
+npm start
+The application will be available at:
+
+Frontend: http://localhost:3000
+
+Backend API: http://localhost:5000
+
+</details>
+
+<details>
+<summary><strong>5. Create an Admin User</strong></summary>
+
+To access the admin panel, you need to create an admin user. Run the following command from the server directory:
+
+Bash
+
+node createAdmin.js
+This will create a default admin user with the following credentials:
+
+Email: admin@estore.com
+
+Password: admin123
+
+</details>
+
+
+# 🛒 InnovGujju WebWizard 2025
+
+A **modern e-commerce platform** built with **React**, **TypeScript**, **Redux**, and **Node.js/Express**. Fully responsive, with a smooth user experience and admin dashboard.
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Homepage
+![Homepage](https://via.placeholder.com/800x400.png?text=Homepage)  
+Modern homepage featuring a dark theme, violet accents, and a prominent call-to-action.
+
+### 🛍️ Products Page
+![Products Page](https://via.placeholder.com/800x400.png?text=Products+Page)  
+Comprehensive products page with advanced filtering, search functionality, and a responsive grid layout.
+
+### 📱 Product Detail
+![Product Detail](https://via.placeholder.com/800x400.png?text=Product+Detail)  
+Detailed product view with high-resolution images, specifications, and an "Add to Cart" button.
+
+### 🛒 Shopping Cart
+![Shopping Cart](https://via.placeholder.com/800x400.png?text=Shopping+Cart)  
+Interactive shopping cart with real-time updates, quantity adjustments, and a clear checkout button.
+
+### 💳 Checkout Process
+![Checkout](https://via.placeholder.com/800x400.png?text=Checkout)  
+Streamlined multi-step checkout process:  
+- Shipping address step  
+- Payment method selection (credit card, debit card, UPI, etc.)  
+- Final order review before placing the order
+
+### ✅ Order Confirmation
+![Order Confirmation](https://via.placeholder.com/800x400.png?text=Order+Confirmation)  
+Order confirmation page displaying a success message and order details.
+
+### 👤 User Profile & Orders
+![User Profile](https://via.placeholder.com/800x400.png?text=User+Profile)  
+User profile page with personal information, sidebar for managing orders, addresses, and more.  
+Order history page displaying past orders with details and status.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository.  
+2. Create a new branch:  
+```bash
+git checkout -b feature/your-feature-name
