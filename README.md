@@ -100,7 +100,7 @@
 ## 🏗️ Project Structure
 
 
-# 🛒 InnovGujju WebWizard 2025
+# 🛒 E-Store
 
 A **modern e-commerce platform** built with **React**, **TypeScript**, **Redux**, and **Node.js/Express**.  
 This project features a fully responsive frontend, an admin dashboard, user authentication, shopping cart, and API-driven backend.
