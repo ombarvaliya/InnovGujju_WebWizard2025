@@ -267,33 +267,32 @@ cd ..
 <details>
 <summary><strong>3. Environment Configuration</strong></summary>
 
-Create a .env file in the root directory and in the server directory with the following content:
+Create a `.env` file in the root directory and in the `server` directory with the following content:
 
-Root .env file:
-
-Code snippet
+**Root `.env` file:**
 
 REACT_APP_API_URL=http://localhost:5000/api
+
 server/.env file:
-
-Code snippet
-
-MONGODB_URI=mongodb://localhost:27017/ecommerce-store
-JWT_SECRET=your-super-secret-jwt-key
-PORT=5000
+- Code snippet:
+  ```plaintext
+  MONGODB_URI=mongodb://localhost:27017/ecommerce-store
+  JWT_SECRET=your-super-secret-jwt-key
+  PORT=5000
+  ```
 </details>
 
 <details>
 <summary><strong>4. Run the Application</strong></summary>
 
-Bash
+In Bash:
 
 # Start the backend server (from the root directory)
 npm run server
 
 # In a new terminal, start the frontend (from the root directory)
 npm start
-The application will be available at:
+- The application will be available at:
 
 Frontend: http://localhost:3000
 
@@ -309,18 +308,13 @@ To access the admin panel, you need to create an admin user. Run the following c
 Bash
 
 node createAdmin.js
-This will create a default admin user with the following credentials:
+  -->This will create a default admin user with the following credentials:
 
 Email: admin@estore.com
 
 Password: admin123
 
 </details>
-
-
-# 🛒 InnovGujju WebWizard 2025
-
-A **modern e-commerce platform** built with **React**, **TypeScript**, **Redux**, and **Node.js/Express**. Fully responsive, with a smooth user experience and admin dashboard.
 
 ---
 
